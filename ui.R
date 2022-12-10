@@ -28,7 +28,7 @@ co2_col_names <- co2_clean_data %>%
   
 
 
-# Define UI for application that draws a histogram
+# Define UI for application 
 ui <- navbarPage(
   title = "A5 CO2 data",
   tabPanel(
