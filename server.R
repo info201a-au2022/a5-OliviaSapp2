@@ -28,8 +28,7 @@ co2_clean_data$co2_per_gdp <- as.numeric(co2_clean_data$co2_per_gdp)
 
 shinyServer(function(input, output) {
 
-  # Assign a value to the `message` key in the `output` list using
-  # the renderText() method, creating a value the UI can display
+  
   output$var1 <- renderText({
     
     highest_co2 <- co2_data %>% 
